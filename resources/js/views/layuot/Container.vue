@@ -7,5 +7,8 @@ export default {
     name: "Container",
     components: {
     },
+    mounted() {
+        console.log('Container vue-router.')
+    },
 }
 </script>
