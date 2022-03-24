@@ -7,11 +7,10 @@
     <title>lara8vue3</title>
 </head>
 <body>
-    <h1>Laravel 8 and vue 3</h1>
+    <h2>Laravel 8</h2>
     <div id="app">
-        <example-component></example-component>
+        <router-view></router-view>
     </div>
-
 <script src="{{mix('js/app.js')}}"></script>
 </body>
 </html>
